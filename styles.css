@@ -1,11 +1,68 @@
-body{
+*{
     background-color: bisque;
     text-align: center;
     font-family: "Fascinate Inline", system-ui;
-    color: purple;
+    color: black;
     font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+i{
+    font-size: 1rem;
 }
 
 li{
     list-style-type: none;
+    background-color: brown;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+li a{
+    text-decoration: none;
+    background-color: brown;
+  
+}
+
+
+
+img{
+    max-height: 30vh;
+}
+
+
+footer a{
+    display: block;
+    font-size: 1rem;
+}
+footer button{
+    color: red
+}
+.aboutp1{
+    color: red
+}
+.aboutp1:hover{
+    transform: scale(0.5) translate(-50%, 54%);
+}
+
+.aboutp2{
+    color: rgb(255, 225, 187);
+}
+.aboutp2:hover{
+    color: orange;
+}
+
+
+.aboutp3{
+    color: blue;
+}
+.aboutp3:hover{
+    transform: skew(30deg, 12deg);
 }
