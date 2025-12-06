@@ -77,3 +77,8 @@ button a{
 .aboutp3:hover{
     transform: skew(30deg, 12deg);
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
